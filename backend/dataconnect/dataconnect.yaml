@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "lmsweb"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "lmsweb-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

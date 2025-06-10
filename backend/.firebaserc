@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "lmsweb-aa16e",
+    "lms": "lmsweb-aa16e"
+  },
+  "targets": {},
+  "etags": {}
+}
